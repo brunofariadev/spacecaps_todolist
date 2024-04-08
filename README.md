@@ -1,9 +1,10 @@
 # Teste Desenvolvedor Spacecaps
 
-## Neste projeto foi desenvolvido dois serviços (apis) e uma biblioteca compartilhada: 
-- O serviço "TLA.Identity.Api" terá a responsabilidade de gerenciar os dados pessoais, permissões e acesso do usuário ao sistema.
-- O serviço "TLA.Tasks.Api" terá a responsabilidade de gerenciar as Tarefas dos usuários.
+## Neste projeto foi desenvolvido três camadas de serviços e uma biblioteca compartilhada: 
+- O serviço de api "TLA.Identity.Api" terá a responsabilidade de gerenciar os dados pessoais, permissões e acesso do usuário ao sistema.
+- O serviço de api "TLA.Tasks.Api" terá a responsabilidade de gerenciar as Tarefas dos usuários.
 - A biblioteca "TLA.WebApi.Core" terá a responsabilidade de compartilhar recursos comuns aos serviços anteriores.
+- O serviço de teste "TLA.Tasks.Tests" terá a responsabilidade de testar o sistema.
 
 ## No projeto geral utilizei:
 - Framework: net5.0

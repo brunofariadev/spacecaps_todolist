@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLA.WebApi.Core", "TLA.WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TLA.Tasks.Api", "TLA.Tasks.Api\TLA.Tasks.Api.csproj", "{472752F8-68C8-41AF-8DB7-B2B51E7819D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLA.Tasks.Tests", "TLA.Tasks.Tests\TLA.Tasks.Tests.csproj", "{C5E0901D-3E0B-4067-BA44-D5EAD7D64487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{472752F8-68C8-41AF-8DB7-B2B51E7819D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472752F8-68C8-41AF-8DB7-B2B51E7819D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472752F8-68C8-41AF-8DB7-B2B51E7819D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E0901D-3E0B-4067-BA44-D5EAD7D64487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E0901D-3E0B-4067-BA44-D5EAD7D64487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E0901D-3E0B-4067-BA44-D5EAD7D64487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E0901D-3E0B-4067-BA44-D5EAD7D64487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
