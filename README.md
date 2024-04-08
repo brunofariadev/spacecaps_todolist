@@ -3,12 +3,13 @@
 ## Neste projeto foi desenvolvido dois serviços (apis) e uma biblioteca compartilhada: 
 - O serviço "TLA.Identity.Api" terá a responsabilidade de gerenciar os dados pessoais, permissões e acesso do usuário ao sistema.
 - O serviço "TLA.Tasks.Api" terá a responsabilidade de gerenciar as Tarefas dos usuários.
-- A biblioteca "TLA.WebApi.Core" terá a responsabilidade de compartilhar recursos comuns aos serviços anteriores
+- A biblioteca "TLA.WebApi.Core" terá a responsabilidade de compartilhar recursos comuns aos serviços anteriores.
 
 ## No projeto geral utilizei:
-- Linguagem: net5.0 
+- Framework: net5.0
 - Arquitetura: Onion Architecture/Clean Architecture
 - Padrão: CQRS
+- Validação: FluentValidation 
 - Banco de dados: MySql
 - ORM: Entity Framework
 - Documentação: Swagger
