@@ -40,12 +40,17 @@ namespace TLA.Tasks.Api.WebApi.Controllers
         {
             var task = await _taskQuerie.Get(id);
 
-            if (task.UserId != _user.ObterUserId() && !_user.PossuiRole(nameof(RoleEnum.Admin)))
+            if (task == null)
             {
-                task = null;
+                return NotFound();
             }
 
-            return task == null ? NotFound() : CustomResponse(task);
+            if (task.UserId != _user.ObterUserId() && !_user.PossuiRole(nameof(RoleEnum.Admin)))
+            {
+                return Unauthorized();
+            }
+
+            return CustomResponse(task);
         }
 
         [HttpPut("{id}")]
