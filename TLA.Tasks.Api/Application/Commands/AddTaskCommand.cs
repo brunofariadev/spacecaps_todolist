@@ -27,13 +27,13 @@ namespace TLA.Tasks.Api.Application.Commands
         {
             public TaskValidation()
             {
+                RuleFor(c => c.UsuarioId)
+                    .NotEqual(Guid.Empty)
+                    .WithMessage("Usuário da tarefa não informado");
+
                 RuleFor(c => c.Title)
                     .NotEmpty()
                     .WithMessage("Informe o título");
-
-                //RuleFor(c => c.Description)
-                //    .NotEmpty()
-                //    .WithMessage("Informe a descrição");
             }
         }
     }
